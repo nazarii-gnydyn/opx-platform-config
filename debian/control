@@ -149,6 +149,17 @@ Architecture: all
 Depends: opx-bcm-lkm, libopx-sai-bcm-esw1, opx-platform-config-dell-s4128t, opx-core
 Description: All packages for Dell Networking S4128T-ON
 
+Package: opx-platform-config-dell-s5148f-vm
+Architecture: all
+Provides: opx-platform-config
+Depends: libopx-sdi-sys-vm1
+Description: Platform-specific files and packages for Dell Networking S5148F-ON
+
+Package: opx-dell-s5148f-vm
+Architecture: all
+Depends: libopx-sai-xpliant1, opx-platform-config-dell-s5148f-vm, opx-core
+Description: All packages for Dell Networking S5148F-ON
+
 Package: opx-platform-config-dell-s5148f
 Architecture: all
 Provides: opx-platform-config
