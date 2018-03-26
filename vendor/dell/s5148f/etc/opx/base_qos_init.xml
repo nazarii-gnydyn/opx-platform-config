@@ -18,7 +18,7 @@
     <!--              Switch level tables             -->
     <!-- ============================================ -->
 
-    <SWITCH-GLOBALS total-buffer="24960">
+    <SWITCH-GLOBALS total-buffer="16384">
 
         <dot1p-to-tc-map tag="DOT1P-ALL-TO-TC-0" min="0" max="7">
             <entry dot1p="all"   tc="0"/>
